@@ -1,8 +1,9 @@
 nav {
     background-color: $primary-color;
-    height: 10vh;
+    height: 11vh;
     .container {
         height: 100%;
+        padding: 1rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -15,8 +16,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-
     list-style-type: none;
+    margin-left: 20vw;
 
     li{
         text-align: center;
@@ -24,6 +25,7 @@ nav {
         a {
             text-decoration: none;
             color: $font-primary-color;
+            display: block;
         }
     }
 }

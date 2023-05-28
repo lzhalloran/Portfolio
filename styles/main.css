@@ -9,12 +9,18 @@ body {
   max-width: 100vw;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 nav {
   background-color: #2D3792;
-  height: 10vh;
+  height: 11vh;
 }
 nav .container {
   height: 100%;
+  padding: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,6 +33,7 @@ nav .container {
   align-items: center;
   width: 100%;
   list-style-type: none;
+  margin-left: 20vw;
 }
 .nav-bar li {
   text-align: center;
@@ -35,4 +42,10 @@ nav .container {
 .nav-bar li a {
   text-decoration: none;
   color: white;
+  display: block;
+}
+
+.logo img {
+  height: 8vh;
+  filter: contrast(1.4);
 }/*# sourceMappingURL=main.css.map */
