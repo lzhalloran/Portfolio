@@ -1,0 +1,29 @@
+nav {
+    background-color: $primary-color;
+    height: 10vh;
+    .container {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    list-style-type: none;
+
+    li{
+        text-align: center;
+        width: 100%;
+        a {
+            text-decoration: none;
+            color: $font-primary-color;
+        }
+    }
+}
