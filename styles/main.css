@@ -16,7 +16,7 @@ body {
 
 nav {
   background-color: #2D3792;
-  height: 11vh;
+  height: 56px;
 }
 nav .container {
   height: 100%;
@@ -29,23 +29,21 @@ nav .container {
 .nav-bar {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-end;
   width: 100%;
   list-style-type: none;
-  margin-left: 20vw;
 }
 .nav-bar li {
   text-align: center;
-  width: 100%;
 }
 .nav-bar li a {
   text-decoration: none;
+  font-weight: 700;
   color: white;
-  display: block;
+  margin: 32px;
 }
 
 .logo img {
-  height: 8vh;
+  height: 48px;
   filter: contrast(1.4);
 }/*# sourceMappingURL=main.css.map */
