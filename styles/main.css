@@ -89,7 +89,7 @@ nav .container {
   min-height: 340px;
   animation-name: slide-in;
   animation-duration: 0.6s;
-  animation-timing-function: ease-inc-out;
+  animation-timing-function: ease-in-out;
 }
 .profile .container {
   display: flex;
