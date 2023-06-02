@@ -19,9 +19,15 @@ body {
   font-family: "Space Grotesk", sans-serif;
 }
 
+.logo img {
+  height: 48px;
+  margin-top: 5px;
+  filter: contrast(1.4);
+}
+
 nav {
   background-color: #2D3792;
-  height: 56px;
+  height: 64px;
 }
 nav .container {
   height: 100%;
@@ -43,12 +49,25 @@ nav .container {
 }
 .nav-bar li a {
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 500;
   color: white;
   margin: 32px;
 }
 
-.logo img {
-  height: 48px;
-  filter: contrast(1.4);
+.landing {
+  padding-top: 2rem;
+}
+.landing .container {
+  height: 35vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.landing .container h3 {
+  font-size: 36px;
+}
+.landing .container p {
+  font-size: 24px;
+  padding: 1rem;
 }/*# sourceMappingURL=main.css.map */
