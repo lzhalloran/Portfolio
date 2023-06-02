@@ -1,6 +1,5 @@
 .profile {
     width:100vw;
-    height:52vw;
     min-height: 340px;
     .container {
         display: flex;
@@ -35,31 +34,26 @@
             position: absolute;
             background-image: linear-gradient(to bottom left, transparent 50%, $primary-color 0);
             z-index: -10;
-            bottom: 16.8vh;
-            animation-name: slide-in;
-            animation-duration: 0.4s;
+            bottom: 17vh;
+            animation-name: slide-in, fade-in;
+            animation-duration: 0.8s;
             animation-timing-function: ease-in-out;
         }
         .profile-back-rectangle{
             width: 100vw;
-            height: 17.2%;
+            height: 17%;
             z-index: -10;
             bottom: 0%;
             position: absolute;
             background-color: $primary-color;
-            animation-name: slide-in;
-            animation-duration: 0.4s;
+            animation-name: slide-in, fade-in;
+            animation-duration: 0.8s;
             animation-timing-function: ease-in-out;
         }
     }
 
-    animation-name: slide-in;
-    animation-duration: 0.6s;
+    animation-name: slide-in, fade-in;
+    animation-duration: 1.0s;
     animation-timing-function: ease-in-out;
 }
 
-@keyframes slide-in {
-    0% {
-        width: 50%;
-    }
-}

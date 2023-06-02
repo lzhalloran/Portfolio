@@ -19,6 +19,16 @@ body {
   font-family: "Space Grotesk", sans-serif;
 }
 
+@keyframes slide-in {
+  0% {
+    width: 0%;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0%;
+  }
+}
 .logo img {
   height: 48px;
   margin-top: 5px;
@@ -77,18 +87,25 @@ nav .container {
 }
 .landing .container h3 {
   font-size: 36px;
+  color: black;
+  animation-name: fade-in;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
 }
 .landing .container p {
   font-size: 24px;
   padding: 1rem;
+  color: black;
+  animation-name: fade-in;
+  animation-duration: 1.6s;
+  animation-timing-function: ease-in-out;
 }
 
 .profile {
   width: 100vw;
-  height: 52vw;
   min-height: 340px;
-  animation-name: slide-in;
-  animation-duration: 0.6s;
+  animation-name: slide-in, fade-in;
+  animation-duration: 1s;
   animation-timing-function: ease-in-out;
 }
 .profile .container {
@@ -120,25 +137,19 @@ nav .container {
   position: absolute;
   background-image: linear-gradient(to bottom left, transparent 50%, #2D3792 0);
   z-index: -10;
-  bottom: 16.8vh;
-  animation-name: slide-in;
-  animation-duration: 0.4s;
+  bottom: 17vh;
+  animation-name: slide-in, fade-in;
+  animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
 }
 .profile .profile-back .profile-back-rectangle {
   width: 100vw;
-  height: 17.2%;
+  height: 17%;
   z-index: -10;
   bottom: 0%;
   position: absolute;
   background-color: #2D3792;
-  animation-name: slide-in;
-  animation-duration: 0.4s;
+  animation-name: slide-in, fade-in;
+  animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
-}
-
-@keyframes slide-in {
-  0% {
-    width: 50%;
-  }
 }/*# sourceMappingURL=main.css.map */

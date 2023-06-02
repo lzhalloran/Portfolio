@@ -10,11 +10,19 @@
 
         h3 {
             font-size: 36px;
+            color: $font-secondary-color;
+            animation-name: fade-in;
+            animation-duration: 0.5s;
+            animation-timing-function: ease-in-out;
         }
 
         p {
             font-size: 24px;
             padding: 1rem;
+            color: $font-secondary-color;
+            animation-name: fade-in;
+            animation-duration: 1.6s;
+            animation-timing-function: ease-in-out;
         }
     }
 }
