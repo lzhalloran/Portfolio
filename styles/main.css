@@ -25,6 +25,13 @@ body {
   filter: contrast(1.4);
 }
 
+.profile-pic img {
+  width: 180px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 100%;
+}
+
 nav {
   background-color: #2D3792;
   height: 64px;
