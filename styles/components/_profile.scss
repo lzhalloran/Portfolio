@@ -1,0 +1,65 @@
+.profile {
+    width:100vw;
+    height:52vw;
+    min-height: 340px;
+    .container {
+        display: flex;
+        height: 52vh;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem;
+
+        h1 {
+            align-self: flex-start;
+            margin: 0px 1rem;
+            font-size: 3rem;
+            width: min-content;
+            color: $font-primary-color;
+
+        }
+
+        .button {
+            align-self: flex-end;
+            text-decoration: none;
+            font-weight: 500;
+            margin: 0px 1rem;
+            color: $font-primary-color;
+        }
+    }
+
+    .profile-back {
+        .profile-back-triangle {
+            width: 100vw;
+            height: 45%;
+            position: absolute;
+            background-image: linear-gradient(to bottom left, transparent 50%, $primary-color 0);
+            z-index: -10;
+            bottom: 16.8vh;
+            animation-name: slide-in;
+            animation-duration: 0.4s;
+            animation-timing-function: ease-in-out;
+        }
+        .profile-back-rectangle{
+            width: 100vw;
+            height: 17.2%;
+            z-index: -10;
+            bottom: 0%;
+            position: absolute;
+            background-color: $primary-color;
+            animation-name: slide-in;
+            animation-duration: 0.4s;
+            animation-timing-function: ease-in-out;
+        }
+    }
+
+    animation-name: slide-in;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-inc-out;
+}
+
+@keyframes slide-in {
+    0% {
+        width: 50%;
+    }
+}
