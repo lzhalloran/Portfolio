@@ -9,8 +9,8 @@
 
 .logo:hover {
     img {
-        filter: invert(100%) grayscale(100%);
-        transform: translateY(-2px);
+        transition: 0.1s;
+        transform: scale(1.05);
     }
 }
 
@@ -20,6 +20,11 @@
         object-fit: contain;
         border-radius: 100%;
     }
+}
+
+.profile-pic:hover {
+    transition: 0.1s;
+    transform: scale(1.05);
 }
 
 .blog-card-image {
