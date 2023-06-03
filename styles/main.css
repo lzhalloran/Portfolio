@@ -239,9 +239,11 @@ nav .container {
 }
 .blog-list .container .card .card-title h3 {
   position: absolute;
+  width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 2rem;
 }
 .blog-list .container .card .card-title:hover img {
   animation: increase-opacity 0.4s forwards ease-in-out;
