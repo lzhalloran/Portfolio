@@ -6,6 +6,10 @@
   border: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 100vw;
 }
@@ -29,6 +33,32 @@ body {
     opacity: 0%;
   }
 }
+@keyframes fade-in-card {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+    visibility: visible;
+  }
+  100% {
+    opacity: 100%;
+    visibility: visible;
+  }
+}
+@keyframes fade-out-card {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 0%;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 0%;
+    visibility: hidden;
+  }
+}
 .logo img {
   height: 48px;
   margin-top: 5px;
@@ -42,12 +72,24 @@ body {
   border-radius: 100%;
 }
 
+.blog-card-image {
+  opacity: 30%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.5rem;
+}
+
 nav {
   position: sticky;
   top: 0;
   background-color: #2D3792;
   height: 64px;
   width: 100%;
+  z-index: 10;
 }
 nav .container {
   height: 100%;
@@ -152,4 +194,51 @@ nav .container {
   animation-name: slide-in, fade-in;
   animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
+}
+
+.blog-list .container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.blog-list .container .card {
+  width: 100%;
+  height: 25vh;
+  margin-bottom: 1rem;
+  background-color: #2D3792;
+  border-radius: 0.5rem;
+  position: relative;
+  color: white;
+}
+.blog-list .container .card .card-title {
+  visibility: visible;
+}
+.blog-list .container .card .card-title h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.blog-list .container .card .card-details {
+  padding: 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  visibility: hidden;
+}
+.blog-list .container .card .card-details a {
+  text-decoration: none;
+  color: white;
+}
+.blog-list .container .card-selector {
+  display: none;
+}
+.blog-list .container .card-selector:checked + label .card-title {
+  animation: fade-out-card 0.4s forwards ease-in-out;
+}
+.blog-list .container .card-selector:checked + label .card-details {
+  animation: fade-in-card 0.4s forwards ease-in-out;
 }/*# sourceMappingURL=main.css.map */

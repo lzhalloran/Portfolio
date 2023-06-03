@@ -9,3 +9,31 @@
         opacity: 0%;
     }
 }
+
+@keyframes fade-in-card {
+    0% {
+        opacity: 0%;
+    }
+    50% {
+        opacity: 0%;
+        visibility: visible;
+    }
+    100% {
+        opacity: 100%;
+        visibility: visible;
+    }
+}
+
+@keyframes fade-out-card {
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 0%;
+        visibility: hidden;
+    }
+    100% {
+        opacity: 0%;
+        visibility: hidden;
+    }
+}
