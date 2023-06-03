@@ -1,0 +1,18 @@
+.blogs {
+    .container {
+        .blog {
+            .blog-title {
+                padding: 1rem;
+                text-align: center;
+                background-color: $primary-color;
+                color: $font-primary-color;
+            }
+            .blog-text {
+                margin: 1rem;
+                h3 {
+                    margin: 1rem 0rem 0rem 0rem;
+                }
+            }
+        }
+    }
+}

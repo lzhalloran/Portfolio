@@ -83,6 +83,12 @@ body {
   border-radius: 0.5rem;
 }
 
+.blog-main-image {
+  width: 100%;
+  padding-top: 63px;
+  padding-bottom: 1rem;
+}
+
 nav {
   position: sticky;
   top: 0;
@@ -241,4 +247,17 @@ nav .container {
 }
 .blog-list .container .card-selector:checked + label .card-details {
   animation: fade-in-card 0.4s forwards ease-in-out;
+}
+
+.blogs .container .blog .blog-title {
+  padding: 1rem;
+  text-align: center;
+  background-color: #2D3792;
+  color: white;
+}
+.blogs .container .blog .blog-text {
+  margin: 1rem;
+}
+.blogs .container .blog .blog-text h3 {
+  margin: 1rem 0rem 0rem 0rem;
 }/*# sourceMappingURL=main.css.map */
