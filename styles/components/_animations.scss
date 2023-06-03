@@ -4,6 +4,12 @@
     }
 }
 
+@keyframes slide-in-height {
+    0% {
+        transform: translateY(50vh);
+    }
+}
+
 @keyframes fade-in {
     0% {
         opacity: 0%;
@@ -35,5 +41,14 @@
     100% {
         opacity: 0%;
         visibility: hidden;
+    }
+}
+
+@keyframes increase-opacity {
+    0% {
+        opacity: 30%;
+    }
+    100% {
+        opacity: 70%;
     }
 }

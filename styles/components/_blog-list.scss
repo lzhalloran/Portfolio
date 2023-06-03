@@ -26,6 +26,12 @@
                 visibility: visible;
             }
 
+            .card-title:hover {
+                img {
+                    animation: increase-opacity 0.4s forwards ease-in-out;
+                }
+            }
+
             .card-details {
                 padding: 2rem;
                 height: 100%;
@@ -39,6 +45,10 @@
                 }
                 visibility: hidden;
             }
+            
+            animation-name: fade-in, slide-in-height;
+            animation-duration: 0.8s;
+            animation-timing-function: ease-out;
         }
 
         .card-selector {
