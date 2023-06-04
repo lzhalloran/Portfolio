@@ -1,0 +1,52 @@
+.contact-name-section {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: $primary-color;
+        color: $font-primary-color;
+        height: calc((100vh - 64px - 3rem) / 2);
+        margin: 1rem auto 1rem auto;
+        text-align: center;
+        h1 {
+            font-size: 2rem;
+        }
+        .button {
+            font-weight: 500;
+            color: $font-primary-color;
+        }
+    }
+
+    animation-name: fade-in, slide-in-height;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+}
+
+.contact-external {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: $primary-color;
+        color: $font-primary-color;
+        height: calc((100vh - 64px - 3rem) / 2);
+        margin: 1rem auto 1rem auto;
+        text-align: center;
+        .external-links {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            list-style-type: none;
+            li {
+                .button {
+                    font-weight: 500;
+                    color: $font-primary-color;
+                    margin: 1rem;
+                }
+            }
+        }
+    }
+    animation-name: fade-in, slide-in-height;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+}

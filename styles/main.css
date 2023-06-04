@@ -120,6 +120,14 @@ body {
   padding-bottom: 1rem;
 }
 
+.contact-image {
+  width: 180px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 100%;
+  align-self: center;
+}
+
 nav {
   position: sticky;
   top: 0;
@@ -296,4 +304,54 @@ nav .container {
 }
 .blogs .container .blog .blog-text h3 {
   margin: 1rem 0rem 0rem 0rem;
+}
+
+.contact-name-section {
+  animation-name: fade-in, slide-in-height;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-out;
+}
+.contact-name-section .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #2D3792;
+  color: white;
+  height: calc((100vh - 64px - 3rem) / 2);
+  margin: 1rem auto 1rem auto;
+  text-align: center;
+}
+.contact-name-section .container h1 {
+  font-size: 2rem;
+}
+.contact-name-section .container .button {
+  font-weight: 500;
+  color: white;
+}
+
+.contact-external {
+  animation-name: fade-in, slide-in-height;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-out;
+}
+.contact-external .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #2D3792;
+  color: white;
+  height: calc((100vh - 64px - 3rem) / 2);
+  margin: 1rem auto 1rem auto;
+  text-align: center;
+}
+.contact-external .container .external-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+}
+.contact-external .container .external-links li .button {
+  font-weight: 500;
+  color: white;
+  margin: 1rem;
 }/*# sourceMappingURL=main.css.map */
