@@ -6,6 +6,8 @@ View the deployed website at: [lzhalloran.netlify.app](https://lzhalloran.netlif
 
 My GitHub Repo: [github.com/lzhalloran/Portfolio](https://github.com/lzhalloran/Portfolio)
 
+My presentation video: 
+
 ## Description
 
 ### Purpose
@@ -20,6 +22,7 @@ Showcase my talent, abilities and experience to potential employers and/or clien
 - animations (slide in, fade in/out, grow on hover)
 
 ### Sitemap
+![Sitemap for the portfolio.](docs/sitemap.jpg)
 
 ### Screenshots
 ![Screenshot of home page, mobile.](docs/screen-home-mobile.jpg)
