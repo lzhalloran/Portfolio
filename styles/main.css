@@ -354,4 +354,47 @@ nav .container {
   font-weight: 500;
   color: white;
   margin: 1rem;
+}
+
+.resume-title-section {
+  animation-name: fade-in, slide-in-height;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-out;
+}
+.resume-title-section .container {
+  padding: 1rem;
+  margin: 1rem auto;
+  text-align: center;
+  background-color: #2D3792;
+  color: white;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.resume-title-section .container .button {
+  font-weight: 500;
+  color: white;
+}
+
+.resume-content {
+  animation-name: fade-in, slide-in-height;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-out;
+}
+.resume-content .container {
+  text-align: center;
+  align-self: center;
+}
+.resume-content .container .resume-article {
+  margin: 1rem;
+}
+.resume-content .container .resume-article h3 {
+  margin: 1rem 0rem 0rem 0rem;
+}
+.resume-content .container .resume-article ul {
+  list-style: none;
+}
+.resume-content .container .resume-article ul li {
+  padding: 0.5rem auto 0.5rem auto;
 }/*# sourceMappingURL=main.css.map */

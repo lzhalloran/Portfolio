@@ -1,0 +1,48 @@
+.resume-title-section {
+    .container {
+        padding: 1rem;
+        margin: 1rem auto;
+        text-align: center;
+        background-color: $primary-color;
+        color: $font-primary-color;
+        height: 8rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        .button {
+            font-weight: 500;
+            color: $font-primary-color;
+        }
+    }
+
+    
+    animation-name: fade-in, slide-in-height;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+}
+
+.resume-content {
+    .container {
+        text-align: center;
+        align-self: center;
+        .resume-article {
+            margin: 1rem;
+            h3 {
+                margin: 1rem 0rem 0rem 0rem;
+            }
+            ul {
+                list-style: none;
+                li {
+                    padding: 0.5rem auto 0.5rem auto;
+                }
+            }
+        }
+    }
+
+    
+    animation-name: fade-in, slide-in-height;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+}
