@@ -6,7 +6,7 @@ View the deployed website at: [lzhalloran.netlify.app](https://lzhalloran.netlif
 
 My GitHub Repo: [github.com/lzhalloran/Portfolio](https://github.com/lzhalloran/Portfolio)
 
-My presentation video: 
+My presentation video: [youtube.com/watch?v=S6uCAJaUO6c](https://www.youtube.com/watch?v=S6uCAJaUO6c)
 
 ## Description
 
@@ -49,3 +49,12 @@ Prospective employers, assumed to have technical knowledge relating to software 
 - html
 - css / sass
 - netlify
+
+### References
+- bogitw. (2015). Silvery Mother-of-pearl butterfly, Pixabay. https://pixabay.com/photos/silvery-mother-of-pearl-butterfly-877121/
+- jennyzhh2008. (2015). Lotus flower bloom blossom, Pixabay. https://pixabay.com/photos/lotus-flower-bloom-blossom-978659/
+- Kanenori. (2019). Rainforest Path Morning Mist Asahi, Pixabay. https://pixabay.com/photos/rainforest-path-morning-mist-asahi-4350845/
+- Oyedele, H. (2023). CSS Accordion. Codepen. Retrieved 1/06/2023 from https://codepen.io/devhammed/pen/WzPgbX?editors=1100
+- Sergio-sq. (2023). Moon phases eclipse sky, Pixabay. https://pixabay.com/photos/moon-moon-phases-eclipse-sky-8006703/
+- Vero-Fasching. (2023). Mountains Mountain Goat Ibex, Pixabay. https://pixabay.com/photos/mountains-mountain-goat-ibex-8027230/
+
