@@ -6,8 +6,6 @@ View the deployed website at: [lzhalloran.netlify.app](https://lzhalloran.netlif
 
 My GitHub Repo: [github.com/lzhalloran/Portfolio](https://github.com/lzhalloran/Portfolio)
 
-My presentation video: [youtube.com/watch?v=S6uCAJaUO6c](https://www.youtube.com/watch?v=S6uCAJaUO6c)
-
 ## Description
 
 ### Purpose
