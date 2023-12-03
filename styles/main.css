@@ -93,8 +93,7 @@ body {
 
 .profile-pic img {
   width: 180px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   border-radius: 100%;
 }
 
@@ -109,8 +108,7 @@ body {
   height: 100%;
   position: absolute;
   transform: translate(-50%, 0%);
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 0.5rem;
 }
 
@@ -122,8 +120,7 @@ body {
 
 .contact-image {
   width: 180px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   border-radius: 100%;
   align-self: center;
 }
@@ -206,7 +203,6 @@ nav .container {
   align-self: flex-start;
   margin: 0px 1rem;
   font-size: 3rem;
-  width: -moz-min-content;
   width: min-content;
   color: white;
 }
@@ -386,15 +382,21 @@ nav .container {
   text-align: center;
   align-self: center;
 }
-.resume-content .container .resume-article {
-  margin: 1rem;
-}
 .resume-content .container .resume-article h3 {
   margin: 1rem 0rem 0rem 0rem;
+  background-color: #2D3792;
+  color: white;
+}
+.resume-content .container .resume-article .skills-columns {
+  display: flex;
+  justify-content: space-around;
 }
 .resume-content .container .resume-article ul {
+  margin: 1rem;
   list-style: none;
 }
 .resume-content .container .resume-article ul li {
-  padding: 0.5rem auto 0.5rem auto;
-}/*# sourceMappingURL=main.css.map */
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+/*# sourceMappingURL=main.css.map */
